@@ -43,7 +43,7 @@ function PostForm({ post }) {
       });
 
       if (dbPost) {
-        navigate(`/post/${dbPost.$id}`);
+        navigate(`/blog/${dbPost.blogId}`);
       } else {
         console.log("error ")
       }
